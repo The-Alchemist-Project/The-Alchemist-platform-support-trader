@@ -1,0 +1,14 @@
+[
+  {
+    "name": "coin",
+    "pattern": "(\\bSOL\\b|\\bHXRO\\b|\\bWBTC\\b|\\bETH\\b|\\bORAI\\b|\\borai\\b)"
+  },
+  {
+    "name": "ask_coin_info",
+    "pattern": "(\\b\\[w\\+\\]\\(coin\\)\\ coin\\b|\\b\\[w\\+\\]\\(coin\\)\\ chain\\b|\\bcoin\\b|\\bchain\\b)"
+  },
+  {
+    "name": "ask_blockchain",
+    "pattern": "(\\bblockchain\\b)"
+  }
+]

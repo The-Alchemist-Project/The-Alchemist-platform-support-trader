@@ -1,0 +1,42 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+# - rule: Say 'I am a bot' anytime the user challenges
+#   steps:
+#   - intent: bot_challenge
+#   - action: utter_iamabot
+
+
+- rule: ask blockchain else 
+  steps:
+  - intent: ask_blockchain
+  - action: utter_blockchain
+ 
+- rule: ask about areon
+  steps:
+  - intent: ask_areon_info
+  - action: utter_areon
+
+#- rule: ask about areon trading
+#  steps:
+#  - intent: ask_areon_info
+#  - action: utter_areon
+
+- rule: ask about coin 
+  steps:
+  - intent: ask_coin_info
+  - action: utter_coin
+  
+- rule: ask about areon trading
+  steps:
+  - intent: ask_areon_trading
+  - action: utter_areon_trading
+  
+
+  # action_show_coin_info

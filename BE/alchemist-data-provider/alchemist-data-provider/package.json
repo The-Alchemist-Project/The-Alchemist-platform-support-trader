@@ -1,0 +1,51 @@
+{
+  "name": "@compassdao/compass-data-provider",
+  "author": "CompassDAO",
+  "license": "MIT",
+  "version": "0.1.10",
+  "description": "Compass Data Provider",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "run-s test:*",
+    "test:lint": "eslint src --ext .ts --ext .js",
+    "test:prettier": "prettier --check .",
+    "unittest": "jest --coverage",
+    "fix": "run-s fix:*",
+    "fix:prettier": "prettier --write .",
+    "fix:lint": "eslint src --ext .ts --ext .js --fix",
+    "prepare": "husky install"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "dependencies": {
+    "bignumber.js": "^9.0.1",
+    "ethers": "^5.5.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^15.0.0",
+    "eslint": "^7.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "husky": "^7.0.4",
+    "jest": "^27.3.1",
+    "lint-staged": "^12.0.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.4.1"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "lint-staged": {
+    "*.{js,jsx,md,yml,toml,json}": [
+      "prettier --write",
+      "prettier --check"
+    ],
+    "*.{js,jsx}": [
+      "eslint --cache --fix",
+      "eslint"
+    ]
+  }
+}

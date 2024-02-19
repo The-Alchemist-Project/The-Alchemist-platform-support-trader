@@ -1,0 +1,6 @@
+[
+  {
+    "name": "coin",
+    "pattern": "(\\bSOL\\b|\\bHXRO\\b|\\bWBTC\\b|\\bETH\\b|\\bORAI\\b|\\borai\\b)"
+  }
+]

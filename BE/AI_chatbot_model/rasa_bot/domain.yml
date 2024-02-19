@@ -1,0 +1,58 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_blockchain
+  - ask_Oraichain_info
+  - ask_areon_info
+  - ask_areon_trading
+  
+ 
+
+responses:
+  utter_greet:
+  - text: "Hi, how can I help you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a AI chat bot."
+
+  utter_blockchain:
+  - text: "Blockchain is a decentralized technology that stores and verifies transactions across a network of computers. It consists of a chain of blocks, each containing a list of transactions. These blocks are linked together and secured using cryptography, making it highly secure and resistant to tampering. Blockchain operates without a central authority, providing transparency, immutability, and trust in the recording of digital transactions."
+
+  utter_Oraichain_info:
+  - text: "Oraichain is a Layer 1 for AI-enabled dApps, leveraging it's unique AI Oracle mechanism to ensure the safe and reliable last mile delivery of AI generated data to smart contracts.\n\n              Name                                        Descriptions\n      Project name                                          Orai chain\n             Field                        Layer 1 for AI-enabled dApps\n             Price       $6.23 (at 23:00  UTC + 7 source by Coingecko)\n           Website                                     https://orai.io\n            Github                        https://github.com/oraichain\n           Twitter                       https://twitter.com/oraichain\n          Telegram                              https://t.me/oraichain\n           Discord               https://discord.com/invite/wwjg2ddfzd\n        Whitepaper                               https://docs.orai.io/\n          Contract          0x4c11249814f11b9346808179cf06e71ac328c1b5\n      Total Supply                                          17,301,072\nCirculating Supply                                          15,455,735\n Info by Coingecko https://www.coingecko.com/vi/ty_gia/oraichain-token"
+
+  utter_areon:
+  - text: "Areon is a decentralized blockchain built to enable scalable, user-friendly apps for the World.Areon is a decentralized blockchain built to enable scalable, user-friendly apps for the World.\n              Name                                        Descriptions\n      Project name                                       Areon\n      Field                      			  Layer 1 platform\n      Price      						$0.1014
+\n      Website					https://areon.network/\n      Github						https://github.com/areonnetwork\n      Docs                      			https://docs.areon.network/\n      Twitter                       			https://twitter.com/AreonNetwork\n      Facebook fanpage                   https://www.facebook.com/areonnetwork\n      Discord              				https://www.reddit.com/r/areon/?rdt=37130\n      Linkedin					 https://www.linkedin.com/company/areon-network\n      Tokenomics          			https://docs.areon.network/tokenomics\n      Total Supply                                          250,000,000\n      Circulating Supply                                         - - - \n      Info by Coingecko https://www.coingecko.com/en/coins/areon-network"
+
+  utter_coin:
+  - text: "This. is coin"
+
+
+  utter_areon_trading:
+  - text: "This is a good buying point of the confluence of the RSI14 indicator and the bullish Japanese candlestick reversal. \n The Area/Bnbn trading pair value 0.0001145 on the 1D frame has an RSI 14 of 25/100 \n and a bullish Harami pattern of Japanese candlestick reversal. 
+   The profit target is +10% in the next 14 days and the stop loss is if the pair drops -7%."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

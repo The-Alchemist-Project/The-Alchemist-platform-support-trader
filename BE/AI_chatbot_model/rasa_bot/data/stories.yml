@@ -1,0 +1,40 @@
+version: "3.1"
+
+stories:
+
+#- story: happy path
+#  steps:
+#  - intent: greet
+#  - action: utter_greet
+#  - intent: ask_blockchain
+#  - action: utter_blockchain
+#  - intent: ask_Oraichain_info
+#  - action: utter_Oraichain_info
+#  - intent: ask_areon_info
+#  - action: utter_areon_info
+# - story: happy path
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_great
+#   - action: utter_happy
+
+# - story: sad path 1
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: affirm
+#   - action: utter_happy
+
+# - story: sad path 2
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - intent: mood_unhappy
+#   - action: utter_cheer_up
+#   - action: utter_did_that_help
+#   - intent: deny
+#   - action: utter_goodbye
