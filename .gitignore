@@ -144,7 +144,7 @@ storybook-static
 
 
 # models
-BE/AI_chatbot_model/models
+BE/AI_chatbot_model/models/*
 
 
 
