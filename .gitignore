@@ -89,7 +89,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+# dist
 
 # Gatsby files
 .cache/
@@ -140,3 +140,11 @@ vite.config.ts.*
 
 .idea
 storybook-static
+
+
+
+# models
+BE/AI_chatbot_model/models
+
+
+
